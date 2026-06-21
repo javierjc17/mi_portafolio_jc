@@ -7,14 +7,21 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 15px;
   margin-bottom: 20px;
 }
 
-h2 {
+header h2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+header nav {
+  margin-left: auto;
 }
 
 h2 span {
@@ -60,6 +67,13 @@ main img {
   margin-left: 20px;
   margin-bottom: 30px;
   float: right;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 footer {
